@@ -1,0 +1,8 @@
+D:\VS2013-Projects\C#OOP\OOP\DefiningClasses\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+D:\VS2013-Projects\C#OOP\OOP\DefiningClasses\Test\bin\Debug\Test.exe.config
+D:\VS2013-Projects\C#OOP\OOP\DefiningClasses\Test\bin\Debug\Test.exe
+D:\VS2013-Projects\C#OOP\OOP\DefiningClasses\Test\bin\Debug\Test.pdb
+D:\VS2013-Projects\C#OOP\OOP\DefiningClasses\Test\bin\Debug\DefineClass.exe
+D:\VS2013-Projects\C#OOP\OOP\DefiningClasses\Test\bin\Debug\DefineClass.pdb
+D:\VS2013-Projects\C#OOP\OOP\DefiningClasses\Test\obj\Debug\Test.exe
+D:\VS2013-Projects\C#OOP\OOP\DefiningClasses\Test\obj\Debug\Test.pdb

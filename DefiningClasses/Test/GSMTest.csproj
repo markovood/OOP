@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1A1F5770-AAAA-4B85-9A1E-0421376647FC}</ProjectGuid>
+    <ProjectGuid>{049E0393-9DED-4613-9020-74F34ACE28AB}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DefineClass</RootNamespace>
-    <AssemblyName>DefineClass</AssemblyName>
+    <RootNamespace>GSMTest</RootNamespace>
+    <AssemblyName>GSMTest</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,11 +41,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GSM.cs" />
+    <Compile Include="GSMTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DefineClass\GSMClass.csproj">
+      <Project>{1a1f5770-aaaa-4b85-9a1e-0421376647fc}</Project>
+      <Name>GSMClass</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
