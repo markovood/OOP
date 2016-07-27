@@ -7,7 +7,7 @@
     <timestamps>
       <styleCop>2016-02-06 00:40:04.494</styleCop>
       <settingsFile>2016-02-06 00:40:04.315</settingsFile>
-      <sourceFile>2016-07-23 00:31:03.625</sourceFile>
+      <sourceFile>2016-07-27 15:58:51.544</sourceFile>
       <parser>2016-02-06 00:40:04.494</parser>
       <StyleCop.CSharp.DocumentationRules>2016-02-06 00:40:04.494</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-1641277994</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -32,17 +32,12 @@
       </violation>
       <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
         <context>The class must have a documentation header.</context>
-        <line>11</line>
+        <line>7</line>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
         <context>The method must have a documentation header.</context>
-        <line>13</line>
-        <warning>False</warning>
-      </violation>
-      <violation namespace="StyleCop.CSharp.MaintainabilityRules" rule="AccessModifierMustBeDeclared" ruleCheckId="SA1400">
-        <context>The method must have an access modifier.</context>
-        <line>13</line>
+        <line>9</line>
         <warning>False</warning>
       </violation>
     </violations>

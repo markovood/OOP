@@ -1,0 +1,1 @@
+Point(x1,y3,z5); Point(x2,y6,z1); Point(x1,y3,z5); Point(x2,y6,z1); Point(x1,y3,z5); Point(x2,y6,z1); Point(x1,y3,z5); Point(x2,y6,z1)

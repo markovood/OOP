@@ -1,8 +1,0 @@
-D:\VS2013-Projects\C#OOP\OOP\DefiningClasses\Test\bin\Debug\DefineClass.exe
-D:\VS2013-Projects\C#OOP\OOP\DefiningClasses\Test\bin\Debug\DefineClass.pdb
-D:\VS2013-Projects\C#OOP\OOP\DefiningClasses\Test\obj\Debug\GsmTest.csprojResolveAssemblyReference.cache
-D:\VS2013-Projects\C#OOP\OOP\DefiningClasses\Test\bin\Debug\GSMTest.exe.config
-D:\VS2013-Projects\C#OOP\OOP\DefiningClasses\Test\bin\Debug\GSMTest.exe
-D:\VS2013-Projects\C#OOP\OOP\DefiningClasses\Test\bin\Debug\GSMTest.pdb
-D:\VS2013-Projects\C#OOP\OOP\DefiningClasses\Test\obj\Debug\GSMTest.exe
-D:\VS2013-Projects\C#OOP\OOP\DefiningClasses\Test\obj\Debug\GSMTest.pdb

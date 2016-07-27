@@ -1,7 +1,7 @@
 ﻿namespace GSMCallHistoryTest
 {
-    using GSMClass;
     using System;
+    using GSMClasses;
 
     // Write a class GSMCallHistoryTest to test the call history functionality of the GSM class.
     public class CallHistoryTest
@@ -54,7 +54,7 @@
             gsm.ClearCallHistory();
             if (gsm.CallHistory.Count == 0)
             {
-                Console.WriteLine("Call history is empty!");
+                Console.WriteLine("Call history has no records!");
             }
             else
             {

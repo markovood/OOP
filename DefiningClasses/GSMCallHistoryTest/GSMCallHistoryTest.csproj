@@ -48,9 +48,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DefineClass\GSMClass.csproj">
-      <Project>{1a1f5770-aaaa-4b85-9a1e-0421376647fc}</Project>
-      <Name>GSMClass</Name>
+    <ProjectReference Include="..\GSMClasses\GSMClasses.csproj">
+      <Project>{74740bd2-7027-4f1a-b2da-291748bf36f2}</Project>
+      <Name>GSMClasses</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

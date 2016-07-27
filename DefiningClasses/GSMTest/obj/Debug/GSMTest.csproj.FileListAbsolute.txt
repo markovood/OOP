@@ -1,0 +1,8 @@
+D:\VS2013-Projects\C#OOP\OOP\DefiningClasses\GSMTest\bin\Debug\GSMTest.exe.config
+D:\VS2013-Projects\C#OOP\OOP\DefiningClasses\GSMTest\bin\Debug\GSMTest.exe
+D:\VS2013-Projects\C#OOP\OOP\DefiningClasses\GSMTest\bin\Debug\GSMTest.pdb
+D:\VS2013-Projects\C#OOP\OOP\DefiningClasses\GSMTest\bin\Debug\GSMClasses.dll
+D:\VS2013-Projects\C#OOP\OOP\DefiningClasses\GSMTest\bin\Debug\GSMClasses.pdb
+D:\VS2013-Projects\C#OOP\OOP\DefiningClasses\GSMTest\obj\Debug\GSMTest.csprojResolveAssemblyReference.cache
+D:\VS2013-Projects\C#OOP\OOP\DefiningClasses\GSMTest\obj\Debug\GSMTest.exe
+D:\VS2013-Projects\C#OOP\OOP\DefiningClasses\GSMTest\obj\Debug\GSMTest.pdb
