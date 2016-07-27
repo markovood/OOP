@@ -1,4 +1,0 @@
-D:\VS2013-Projects\C#OOP\OOP\DefiningClasses-Part2\EuclidianPoint\bin\Debug\EuclidianPoint.dll
-D:\VS2013-Projects\C#OOP\OOP\DefiningClasses-Part2\EuclidianPoint\bin\Debug\EuclidianPoint.pdb
-D:\VS2013-Projects\C#OOP\OOP\DefiningClasses-Part2\EuclidianPoint\obj\Debug\EuclidianPoint.dll
-D:\VS2013-Projects\C#OOP\OOP\DefiningClasses-Part2\EuclidianPoint\obj\Debug\EuclidianPoint.pdb

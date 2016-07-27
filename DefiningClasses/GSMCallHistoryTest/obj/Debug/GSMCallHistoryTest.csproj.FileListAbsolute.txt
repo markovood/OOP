@@ -1,8 +1,0 @@
-D:\VS2013-Projects\C#OOP\OOP\DefiningClasses\GSMCallHistoryTest\bin\Debug\GSMCallHistoryTest.exe.config
-D:\VS2013-Projects\C#OOP\OOP\DefiningClasses\GSMCallHistoryTest\bin\Debug\GSMCallHistoryTest.exe
-D:\VS2013-Projects\C#OOP\OOP\DefiningClasses\GSMCallHistoryTest\bin\Debug\GSMCallHistoryTest.pdb
-D:\VS2013-Projects\C#OOP\OOP\DefiningClasses\GSMCallHistoryTest\obj\Debug\GSMCallHistoryTest.exe
-D:\VS2013-Projects\C#OOP\OOP\DefiningClasses\GSMCallHistoryTest\obj\Debug\GSMCallHistoryTest.pdb
-D:\VS2013-Projects\C#OOP\OOP\DefiningClasses\GSMCallHistoryTest\obj\Debug\GSMCallHistoryTest.csprojResolveAssemblyReference.cache
-D:\VS2013-Projects\C#OOP\OOP\DefiningClasses\GSMCallHistoryTest\bin\Debug\GSMClasses.dll
-D:\VS2013-Projects\C#OOP\OOP\DefiningClasses\GSMCallHistoryTest\bin\Debug\GSMClasses.pdb

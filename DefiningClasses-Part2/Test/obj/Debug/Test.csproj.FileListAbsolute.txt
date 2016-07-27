@@ -1,8 +1,0 @@
-D:\VS2013-Projects\C#OOP\OOP\DefiningClasses-Part2\Test\bin\Debug\Test.exe.config
-D:\VS2013-Projects\C#OOP\OOP\DefiningClasses-Part2\Test\bin\Debug\Test.exe
-D:\VS2013-Projects\C#OOP\OOP\DefiningClasses-Part2\Test\bin\Debug\Test.pdb
-D:\VS2013-Projects\C#OOP\OOP\DefiningClasses-Part2\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
-D:\VS2013-Projects\C#OOP\OOP\DefiningClasses-Part2\Test\obj\Debug\Test.exe
-D:\VS2013-Projects\C#OOP\OOP\DefiningClasses-Part2\Test\obj\Debug\Test.pdb
-D:\VS2013-Projects\C#OOP\OOP\DefiningClasses-Part2\Test\bin\Debug\EuclidianPoint.dll
-D:\VS2013-Projects\C#OOP\OOP\DefiningClasses-Part2\Test\bin\Debug\EuclidianPoint.pdb
