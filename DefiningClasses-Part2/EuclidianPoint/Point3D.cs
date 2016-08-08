@@ -1,8 +1,11 @@
 ﻿namespace EuclidianPoint
 {
+    using System;
     using System.Text;
+    using CustomAttributes;
 
-    public struct Point3D
+    [Version(1, 0)]
+    public struct Point3D : IComparable
     {
         // fields
         private static readonly Point3D pointO = new Point3D(0, 0, 0);
@@ -89,6 +92,51 @@
         public override string ToString()
         {
             return string.Format("Point(x{0},y{1},z{2})", this.PointX, this.PointY, this.PointZ);
+        }
+
+        // interface implementation
+        public int CompareTo(object obj)
+        {
+            // implementation is needed in order to make GenericList list accept Point3D as element type
+            var objToCompare = (Point3D)obj;
+            if (this.pointX > objToCompare.pointX)
+            {
+                return 1;
+            }
+            else if (this.pointX < objToCompare.pointX)
+            {
+                return -1;
+            }
+            else
+            {
+                // coordsX are equal
+                if (this.pointY > objToCompare.pointY)
+                {
+                    return 1;
+                }
+                else if (this.pointY < objToCompare.pointY)
+                {
+                    return -1;
+                }
+                else
+                {
+                    // coordsY are equal
+                    if (this.pointZ > objToCompare.pointZ)
+                    {
+                        return 1;
+                    }
+                    else if (this.pointZ < objToCompare.pointZ)
+                    {
+                        return -1;
+                    }
+                    else
+                    {
+                        // coordsZ are equal, so the points are equal
+                        return 0;
+                    }
+                }
+            }
+
         }
     }
 }

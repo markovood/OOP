@@ -1,7 +1,9 @@
 ﻿namespace EuclidianPoint
 {
     using System;
+    using CustomAttributes;
 
+    [Version(1, 1)]
     public static class PointCalculations
     {
         public static double CalcDistance(Point3D somePoint, Point3D anotherpoint)

@@ -42,6 +42,12 @@
     <Compile Include="GenericList.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CustomAttributes\CustomAttributes.csproj">
+      <Project>{e52c0ed5-89d5-46d7-8cc6-cb955f49d1fb}</Project>
+      <Name>CustomAttributes</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

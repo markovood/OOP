@@ -1,7 +1,9 @@
 ﻿namespace EuclidianPoint
 {
     using System.IO;
+    using CustomAttributes;
 
+    [Version(1, 0)]
     public static class PathStorage
     {
         // Create a static class PathStorage with static methods to save and load paths from a text file.

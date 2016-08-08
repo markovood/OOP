@@ -2,8 +2,10 @@
 {
     using System;
     using System.Text;
+    using CustomAttributes;
 
-    public class GenericList<T>
+    [Version(1, 0)]
+    public class GenericList<T> where T : IComparable
     {
         // fields
         private T[] list;
@@ -131,6 +133,34 @@
             }
 
             return listAsStr.ToString();
+        }
+
+        public T Min()
+        {
+            T minElement = this.list[0];
+            for (int i = 1; i < this.count; i++)
+            {
+                if (this.list[i].CompareTo(minElement) < 0)
+                {
+                    minElement = this.list[i];
+                }
+            }
+
+            return minElement;
+        }
+
+        public T Max()
+        {
+            T maxElement = this.list[0];
+            for (int i = 1; i < this.count; i++)
+            {
+                if (this.list[i].CompareTo(maxElement) > 0)
+                {
+                    maxElement = this.list[i];
+                }
+            }
+
+            return maxElement;
         }
 
         private void EnsureCapacity()

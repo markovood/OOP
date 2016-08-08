@@ -1,7 +1,9 @@
 ﻿namespace EuclidianPoint
 {
     using System.Collections.Generic;
+    using CustomAttributes;
 
+    [Version(1, 0)]
     public class Path
     {
         // fields

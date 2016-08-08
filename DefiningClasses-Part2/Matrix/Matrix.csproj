@@ -4,16 +4,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{85926D1B-BDB0-4ECC-B15D-B2E5B05262FA}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <ProjectGuid>{2DD71DDB-E613-4340-8264-D3157B2A46DC}</ProjectGuid>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Test</RootNamespace>
-    <AssemblyName>Test</AssemblyName>
+    <RootNamespace>Matrix</RootNamespace>
+    <AssemblyName>Matrix</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -23,7 +22,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -41,28 +39,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="TestingPrgm.cs" />
+    <Compile Include="Matrix.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CustomAttributes\CustomAttributes.csproj">
       <Project>{e52c0ed5-89d5-46d7-8cc6-cb955f49d1fb}</Project>
       <Name>CustomAttributes</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\EuclidianPoint\EuclidianPoint.csproj">
-      <Project>{84c68c16-55cc-4a06-b67a-7ad5ae8c6304}</Project>
-      <Name>EuclidianPoint</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\GenericClass\GenericClass.csproj">
-      <Project>{28d1ed8d-6b0c-4af4-9e6f-3c08e6bce32d}</Project>
-      <Name>GenericClass</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Matrix\Matrix.csproj">
-      <Project>{2dd71ddb-e613-4340-8264-d3157b2a46dc}</Project>
-      <Name>Matrix</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
