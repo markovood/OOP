@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SchoolClasses.School" Collapsed="true">
+    <Position X="3.25" Y="0.5" Width="3" />
+    <AssociationLine Name="Classes" Type="SchoolClasses.StudentsClass">
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="0.154" Y="0.53" Height="0.182" Width="0.802" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>School.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Classes" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="SchoolClasses.Persons.Student">
+    <Position X="1" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAQAAAAEAAAEAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Persons\Student.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Left" Position="0.526" />
+  </Class>
+  <Class Name="SchoolClasses.StudentsClass">
+    <Position X="3.75" Y="2.75" Width="2.25" />
+    <AssociationLine Name="Students" Type="SchoolClasses.Persons.Student" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.844" Y="5.334" />
+        <Point X="3.844" Y="5.709" />
+        <Point X="1.688" Y="5.709" />
+        <Point X="1.688" Y="6.75" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.219" Y="0.612" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="Teachers" Type="SchoolClasses.Persons.Teacher" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.812" Y="5.334" />
+        <Point X="5.812" Y="5.709" />
+        <Point X="8.25" Y="5.709" />
+        <Point X="8.25" Y="6.75" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.054" Y="0.603" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAIgAAAAAAAAgAAEAAAAAAAAAAAAAAAAAAAAAgAAIgA=</HashCode>
+      <FileName>StudentsClass.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Students" />
+      <Property Name="Teachers" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Orientation="Right" Position="0.443" />
+  </Class>
+  <Class Name="SchoolClasses.Persons.Person">
+    <Position X="4" Y="6.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Persons\Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SchoolClasses.Persons.Teacher">
+    <Position X="7.5" Y="6.75" Width="1.5" />
+    <AssociationLine Name="Disciplines" Type="SchoolClasses.Discipline">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="1.388" Y="1.325" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Persons\Teacher.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Disciplines" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Orientation="Right" Position="0.539" />
+  </Class>
+  <Class Name="SchoolClasses.Discipline">
+    <Position X="9.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAEAAAAAAUAAAAAAAAAAAAAAABAIAA=</HashCode>
+      <FileName>Discipline.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Right" Position="0.443" />
+  </Class>
+  <Interface Name="SchoolClasses.Interfaces.ICommentable" Collapsed="true">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Interfaces\ICommentable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -253,7 +253,7 @@
             };
 
             // reference for the following query at https://msdn.microsoft.com/en-us/library/bb397941.aspx
-            string departmentNeeded = "Everything Else";
+            string departmentNeeded = "Mathematics";
             var resulTask16 =
                 from student in someOtherStudents
                 join _group in groups on student.GroupNumber equals _group.GroupNumber
