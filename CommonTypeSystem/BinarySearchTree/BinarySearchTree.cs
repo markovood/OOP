@@ -220,9 +220,14 @@
             }
         }
 
+        // TODO: Implement the standard methods from System.Object – ToString(), Equals(…), GetHashCode() and the operators for
+        //       comparison == and !=
         public override string ToString()
         {
             
         }
+
+        // TODO: Add and implement the ICloneable interface for deep copy of the tree.
+
     }
 }
