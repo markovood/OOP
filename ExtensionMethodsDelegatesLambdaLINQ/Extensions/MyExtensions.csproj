@@ -40,6 +40,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IEnumerableExtensions.cs" />
+    <Compile Include="MyStringReverse.cs" />
     <Compile Include="StringBuilderExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
