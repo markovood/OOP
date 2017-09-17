@@ -72,7 +72,7 @@ namespace Infestation
 
                     break;
                 default:
-                    base.ExecuteProceedSingleIterationCommand();
+                    base.ProcessSingleInteraction(interaction);
                     break;
             }
         }

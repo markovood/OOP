@@ -20,7 +20,8 @@ namespace Infestation
         {
             if (otherSupplement is InfestationSpores)
             {
-
+                this.PowerEffect = 0;
+                this.AggressionEffect = 0;
             }
         }
     }
