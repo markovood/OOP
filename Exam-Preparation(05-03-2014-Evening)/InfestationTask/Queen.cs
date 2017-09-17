@@ -15,5 +15,11 @@ namespace Infestation
             base(id, UnitClassification.Psionic, QueenBaseHealth, QueenBasePower, QueenBaseAggression)
         {
         }
+
+        public override Interaction DecideInteraction(IEnumerable<UnitInfo> units)
+        {
+            // TODO: make InfestableUnit : Unit class with overridden DecideInteraction, GetOptimalAttackableUnit, CanAttackUnit
+            // TODO: make Queen & Parasite inherit from InfestableUnit
+        }
     }
 }

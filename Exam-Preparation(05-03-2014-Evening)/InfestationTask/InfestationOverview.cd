@@ -52,7 +52,7 @@
   <Class Name="Infestation.HoldingPenExtender" Collapsed="true">
     <Position X="9.25" Y="1.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAIAAABAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>HoldingPenExtender.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -66,21 +66,21 @@
   <Class Name="Infestation.Marine" Collapsed="true">
     <Position X="2.5" Y="4.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
       <FileName>Marine.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Infestation.Parasite" Collapsed="true">
     <Position X="6.5" Y="3.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAAAACAAAAAAgAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAABAAAAAACAAIAAAgAABAAA=</HashCode>
       <FileName>Parasite.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Infestation.Queen" Collapsed="true">
     <Position X="6.5" Y="2" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAIAAAAAAQAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAABAIAAAAAAQAAAAAAAAAAA=</HashCode>
       <FileName>Queen.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -130,14 +130,14 @@
   <Class Name="Infestation.Weapon" Collapsed="true">
     <Position X="6.75" Y="6.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAACgAABAAAAAAAAAAA=</HashCode>
       <FileName>Weapon.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Infestation.InfestationSpores" Collapsed="true">
     <Position X="8.75" Y="6.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAACgAABAAAAAAAAAAA=</HashCode>
       <FileName>InfestationSpores.cs</FileName>
     </TypeIdentifier>
   </Class>

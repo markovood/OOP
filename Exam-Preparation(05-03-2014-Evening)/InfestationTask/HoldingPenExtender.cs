@@ -58,5 +58,19 @@ namespace Infestation
                     break;
             }
         }
+
+        protected override void ProcessSingleInteraction(Interaction interaction)
+        {
+            switch (interaction.InteractionType)
+            {
+                case InteractionType.Infest:
+                    Unit target = this.GetUnit(interaction.TargetUnit);
+                    target.AddSupplement(new InfestationSpores());
+                    break;
+                default:
+                    base.ExecuteProceedSingleIterationCommand();
+                    break;
+            }
+        }
     }
 }

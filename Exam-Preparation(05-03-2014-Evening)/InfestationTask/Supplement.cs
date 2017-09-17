@@ -13,7 +13,7 @@ namespace Infestation
 
         public int PowerEffect { get; protected set; }
 
-        public void ReactTo(ISupplement otherSupplement)
+        public virtual void ReactTo(ISupplement otherSupplement)
         {
         }
     }

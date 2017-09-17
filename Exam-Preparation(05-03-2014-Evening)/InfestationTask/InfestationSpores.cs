@@ -15,5 +15,13 @@ namespace Infestation
             this.PowerEffect = Power;
             this.AggressionEffect = Aggression;
         }
+
+        public override void ReactTo(ISupplement otherSupplement)
+        {
+            if (otherSupplement is InfestationSpores)
+            {
+
+            }
+        }
     }
 }
