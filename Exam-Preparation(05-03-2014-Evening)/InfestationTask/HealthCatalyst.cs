@@ -7,7 +7,7 @@ namespace Infestation
 {
     public class HealthCatalyst : Catalysts
     {
-        public const int Health = 3;
+        private const int Health = 3;
 
         public HealthCatalyst() : 
             base(0, Health, 0)

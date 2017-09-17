@@ -7,7 +7,7 @@ namespace Infestation
 {
     public class AggressionCatalyst : Catalysts
     {
-        public const int Aggression = 3;
+        private const int Aggression = 3;
 
         public AggressionCatalyst() :
             base(0, 0, Aggression)

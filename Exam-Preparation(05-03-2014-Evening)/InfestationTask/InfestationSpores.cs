@@ -7,8 +7,8 @@ namespace Infestation
 {
     public class InfestationSpores : Supplement
     {
-        public const int Power = -1;
-        public const int Aggression = 20;
+        private const int Power = -1;
+        private const int Aggression = 20;
 
         public InfestationSpores()
         {

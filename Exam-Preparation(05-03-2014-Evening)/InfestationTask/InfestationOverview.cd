@@ -99,21 +99,21 @@
       <FileName>Catalysts.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Infestation.AggressionCatalyst" Collapsed="true">
+  <Class Name="Infestation.AggressionCatalyst">
     <Position X="4.25" Y="8.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
       <FileName>AggressionCatalyst.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Infestation.HealthCatalyst" Collapsed="true">
+  <Class Name="Infestation.HealthCatalyst">
     <Position X="2.5" Y="8.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>HealthCatalyst.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Infestation.PowerCatalyst" Collapsed="true">
+  <Class Name="Infestation.PowerCatalyst">
     <Position X="0.75" Y="8.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
@@ -127,14 +127,14 @@
       <FileName>WeaponrySkill.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Infestation.Weapon" Collapsed="true">
+  <Class Name="Infestation.Weapon">
     <Position X="6.75" Y="6.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAACgAABAAAAAAAAAAA=</HashCode>
       <FileName>Weapon.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Infestation.InfestationSpores" Collapsed="true">
+  <Class Name="Infestation.InfestationSpores">
     <Position X="8.75" Y="6.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAACgAABAAAAAAAAAAA=</HashCode>
