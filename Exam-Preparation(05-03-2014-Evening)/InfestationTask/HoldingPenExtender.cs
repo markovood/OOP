@@ -65,7 +65,11 @@ namespace Infestation
             {
                 case InteractionType.Infest:
                     Unit target = this.GetUnit(interaction.TargetUnit);
-                    target.AddSupplement(new InfestationSpores());
+                    if (interaction.SourceUnit.UnitClassification == InfestationRequirements.RequiredClassificationToInfest(target.UnitClassification))
+                    {
+                        target.AddSupplement(new InfestationSpores());
+                    }
+
                     break;
                 default:
                     base.ExecuteProceedSingleIterationCommand();

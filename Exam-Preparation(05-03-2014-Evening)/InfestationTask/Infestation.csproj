@@ -50,6 +50,7 @@
     <Compile Include="Human.cs" />
     <Compile Include="InfestationRequirements.cs" />
     <Compile Include="InfestationSpores.cs" />
+    <Compile Include="InfestableUnit.cs" />
     <Compile Include="Interaction.cs" />
     <Compile Include="InteractionType.cs" />
     <Compile Include="ISupplement.cs" />
