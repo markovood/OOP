@@ -55,13 +55,6 @@
       <FileName>Console\Program.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="ArmyOfCreatures.Extended.DeleteMe" Collapsed="true">
-    <Position X="14" Y="2.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Extended\DeleteMe.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="ArmyOfCreatures.Logic.Battles.BattleManager" Collapsed="true" BaseTypeListCollapsed="true">
     <Position X="17.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
@@ -175,6 +168,41 @@
     <TypeIdentifier>
       <HashCode>AAAAAIAgAAAAAAAEEAAAAAACAAAAAAAAAAAAAAAAAAQ=</HashCode>
       <FileName>Logic\Specialties\Specialty.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArmyOfCreatures.Extended.Creatures.AncientBehemoth" Collapsed="true">
+    <Position X="2.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Extended\Creatures\AncientBehemoth.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArmyOfCreatures.Extended.Creatures.Goblin" Collapsed="true">
+    <Position X="4.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Extended\Creatures\Goblin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArmyOfCreatures.Extended.Creatures.CyclopsKing" Collapsed="true">
+    <Position X="9.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Extended\Creatures\CyclopsKing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArmyOfCreatures.Extended.Creatures.Griffin" Collapsed="true">
+    <Position X="7" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Extended\Creatures\Griffin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArmyOfCreatures.Extended.Creatures.WolfRaider" Collapsed="true">
+    <Position X="11.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Extended\Creatures\WolfRaider.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Interface Name="ArmyOfCreatures.Console.Commands.ICommand" Collapsed="true">
