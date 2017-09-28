@@ -12,7 +12,6 @@
     public class Toothpaste : Product, IToothpaste
     {
         private IList<string> toothpasteIngredients;
-        private string ingredients;
 
         public Toothpaste(string name, string brand, decimal price, GenderType gender, IList<string> ingredients) :
             base(name, brand, price, gender)

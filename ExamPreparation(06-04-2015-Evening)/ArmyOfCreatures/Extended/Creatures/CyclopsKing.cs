@@ -6,7 +6,8 @@
     using System.Text;
     using System.Threading.Tasks;
 
-    using ArmyOfCreatures.Logic.Creatures;
+    using Logic.Creatures;
+    using Specialties;
 
     public class CyclopsKing : Creature
     {

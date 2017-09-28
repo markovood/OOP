@@ -12,7 +12,7 @@
     public class AncientBehemoth : Creature
     {
         public AncientBehemoth() : 
-            base(19, 19, 40, 300)
+            base(19, 19, 300, 40)
         {
             this.AddSpecialty(new ReduceEnemyDefenseByPercentage(80m));
             this.AddSpecialty(new DoubleDefenseWhenDefending(5));
