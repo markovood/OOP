@@ -10,7 +10,7 @@ namespace AcademyEcosystem
     {
         static Engine GetEngineInstance()
         {
-            return new Engine();
+            return new EngineExtended();
         }
 
         static void Main(string[] args)
