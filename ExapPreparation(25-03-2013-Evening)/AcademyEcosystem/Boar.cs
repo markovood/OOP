@@ -20,7 +20,6 @@ namespace AcademyEcosystem
         {
             if (plant != null)
             {
-                // TODO: may be if(plant.GetEatenQuantity(biteSize) > 0) { this.Size++; }
                 this.Size++;
                 return plant.GetEatenQuantity(biteSize);
             }

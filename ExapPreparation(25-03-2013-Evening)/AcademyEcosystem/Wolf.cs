@@ -28,7 +28,6 @@ namespace AcademyEcosystem
             }
             else
             {
-                // TODO: Check this!
                 return 0;
             }
         }
